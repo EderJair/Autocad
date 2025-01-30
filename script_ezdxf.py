@@ -12,10 +12,10 @@ msp = doc.modelspace()
 
 # Configuración de capas, colores y grosor de línea
 colores_por_patron = {
-    "ANSI31": {"border_color": 20, "layer": "PRELOSA_VERDE", "pattern": "ANSI31"},
-    "ANSI32": {"border_color": 2, "layer": "PRELOSA_AMARILLA", "pattern": "ANSI32"},
-    "ANSI33": {"border_color": 3, "layer": "PRELOSA_ROJA", "pattern": "ANSI33"},
-    "ANSI34": {"border_color": 4, "layer": "PRELOSA_AZUL", "pattern": "ANSI34"},
+    "ANSI31": {"border_color": 2, "layer": "PRELOSA_VERDE", "pattern": "ANSI31"},
+    "ANSI32": {"border_color": 20, "layer": "PRELOSA_AMARILLA", "pattern": "ANSI32"},
+    "ANSI33": {"border_color": 4, "layer": "PRELOSA_ROJA", "pattern": "ANSI33"},
+    "ANSI34": {"border_color": 3, "layer": "PRELOSA_AZUL", "pattern": "ANSI34"},
     "ANSI35": {"border_color": 5, "layer": "PRELOSA_MAGENTA", "pattern": "ANSI35"},
     "ANSI36": {"border_color": 6, "layer": "PRELOSA_CYAN", "pattern": "ANSI36"},
     "ANSI37": {"border_color": 18, "layer": "PRELOSA_BLANCO", "pattern": "ANSI37"},
@@ -26,7 +26,7 @@ colores_por_patron = {
     "AR-SAND": {"border_color": 12, "layer": "PRELOSA_AR-SAND", "pattern": "AR-SAND"},
     "AR-SQUARE": {"border_color": 13, "layer": "PRELOSA_AR-SQUARE", "pattern": "AR-SQUARE"},
     "BRICK": {"border_color": 14, "layer": "PRELOSA_BRICK", "pattern": "BRICK"},
-    "CROSS": {"border_color": 15, "layer": "PRELOSA_CROSS", "pattern": "CROSS"},
+    "CROSS": {"border_color": 160, "layer": "PRELOSA_CROSS", "pattern": "CROSS"},
     "NET": {"border_color": 16, "layer": "PRELOSA_NET", "pattern": "NET"},
     "ZIGZAG": {"border_color": 17, "layer": "PRELOSA_ZIGZAG", "pattern": "ZIGZAG"},
 }
